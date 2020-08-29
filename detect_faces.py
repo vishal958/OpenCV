@@ -63,5 +63,6 @@ for i in range(0, detections.shape[2]):
 cv2.imshow("Output", image)
 cv2.waitKey(0)
 
-# python detect_faces.py --image rooster.jpg --prototxt deploy.prototxt.txt \
-# 	--model res10_300x300_ssd_iter_140000.caffemodel
+
+# Command to run
+# python detect_faces.py --image vishal.jpg --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
